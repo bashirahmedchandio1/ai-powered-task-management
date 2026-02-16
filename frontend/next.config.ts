@@ -7,10 +7,11 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: `https://ai-powered-taskflow-api.vercel.app/api/:path*`,
+        destination: `https://ai-powered-task-management.vercel.app/api/:path*`,
       },
     ];
   },
 };
 
 export default nextConfig;
+
